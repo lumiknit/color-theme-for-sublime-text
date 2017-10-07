@@ -334,7 +334,8 @@ meta.function.type-declaration</string>
 			<string>punctuation.separator,
 punctuation.section,
 punctuation.other,
-punctuation.accessor</string>
+punctuation.accessor,
+punctuation.terminator</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
