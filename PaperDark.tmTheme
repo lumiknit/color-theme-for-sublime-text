@@ -160,7 +160,23 @@
 			<key>name</key>
 			<string>Class name</string>
 			<key>scope</key>
-			<string>entity.name.class</string>
+			<string>entity.name.class,
+				entity.name.struct,
+				entity.name.enum</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#99E6FF</string>
+				<key>fontStyle</key>
+				<string> bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Namespace name</string>
+			<key>scope</key>
+			<string>entity.name.namespace,
+				entity.name.module</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
