@@ -20,7 +20,7 @@
 				<key>foreground</key>
 				<string>#000000</string>
 				<key>invisibles</key>
-				<string>#D8D8D8</string>
+				<string>#CCCCCC</string>
 				<key>lineHighlight</key>
 				<string>#EBEBEB</string>
 				<key>selection</key>
@@ -356,6 +356,118 @@ punctuation.terminator</string>
 			<dict>
 				<key>foreground</key>
 				<string>#E41507</string>
+			</dict>
+		</dict>
+<!-- Markup -->
+		<dict>
+			<key>name</key>
+			<string>Markup Bold</string>
+			<key>scope</key>
+			<string>markup.bold</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup Italic</string>
+			<key>scope</key>
+			<string>markup.italic</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup Underline</string>
+			<key>scope</key>
+			<string>markup.underline</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>underline</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup List Bullet</string>
+			<key>scope</key>
+			<string>markup.list.unnumbered.bullet, markup.list.numbered.bullet</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#E41507</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup Link</string>
+			<key>scope</key>
+			<string>punctuation.definition.link,
+punctuation.definition.metadata,
+punctuation.definition.image</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2981CA</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup Link Contents</string>
+			<key>scope</key>
+			<string>meta.link.inline, meta.image.inline</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2981CA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup Block Quote</string>
+			<key>scope</key>
+			<string>punctuation.definition.blockquote,
+punctuation.definition.raw,
+punctuation.definition.table-cell-alignment</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#E41507</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup Block</string>
+			<key>scope</key>
+			<string>markup.quote, markup.raw</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#e8e8e8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup Heading</string>
+			<key>scope</key>
+			<string>markup.heading</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#2981CA</string>
 			</dict>
 		</dict>
 	</array>
