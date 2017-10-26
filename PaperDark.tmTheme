@@ -350,6 +350,10 @@ meta.function.type-declaration</string>
 			<string>punctuation.separator,
 punctuation.section,
 punctuation.other,
+punctuation.definition.function,
+punctuation.definition.list,
+punctuation.definition.vector,
+punctuation.definition.group,
 punctuation.accessor,
 punctuation.terminator</string>
 			<key>settings</key>
