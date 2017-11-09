@@ -354,6 +354,13 @@ punctuation.definition.function,
 punctuation.definition.list,
 punctuation.definition.vector,
 punctuation.definition.group,
+punctuation.definition.parameter,
+punctuation.definition.parameters,
+punctuation.definition.variable,
+punctuation.definition.variables,
+punctuation.definition.block,
+punctuation.definition.code-block,
+punctuation.definition.function-arguments,
 punctuation.accessor,
 punctuation.terminator</string>
 			<key>settings</key>
