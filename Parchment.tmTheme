@@ -176,7 +176,8 @@
 			<string>Namespace name</string>
 			<key>scope</key>
 			<string>entity.name.namespace,
-				entity.name.module</string>
+				entity.name.module,
+				entity.name.section</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -333,6 +334,8 @@
 			<string>Operator</string>
 			<key>scope</key>
 			<string>keyword.operator,
+				keyword.arithmetic,
+				keyword.comparison,
 meta.brace,
 meta.function.type-declaration</string>
 			<key>settings</key>
