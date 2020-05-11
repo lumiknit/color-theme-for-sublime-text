@@ -7,48 +7,56 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Paper</string>
+	<string>Darkula</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#F2F2F2</string>
-				<key>caret</key>
-				<string>#000000</string>
+				<string>#2B2B2B</string>
 				<key>foreground</key>
-				<string>#000000</string>
-				<key>invisibles</key>
-				<string>#CCCCCC</string>
+				<string>#A9B7C6</string>
 				<key>lineHighlight</key>
-				<string>#EBEBEB</string>
-				<key>selection</key>
-				<string>#E6E6E6</string>
-				<key>gutterForeground</key>
-				<string>#000000</string>
-				<key>bracketsForeground</key>
-				<string>#000000</string>
+				<string>#3B3B3B</string>
 				<key>gutter</key>
-				<string>#F2F2F2</string>
-				<key>selectionBorder</key>
-				<string>#BDB9B2</string>
-				<key>selectionBackground</key>
-				<string>#E8E3DF</string>
-				<key>stackGuide</key>
-				<string>#E6E6E6</string>
+				<string>#2B2B2B</string>
+				<key>gutterForeground</key>
+				<string>#606366</string>
+				<key>caret</key>
+				<string>#BBBBBB</string>
+				<key>invisibles</key>
+				<string>#606060</string>
+				<key>bracketsForeground</key>
+				<string>#FFC66D</string>
 				<key>findHighlight</key>
-				<string>#D8D8D8</string>
-				<key>activeGuide</key>
-				<string>#EBEBEB</string>
+				<string>#274F75</string>
 				<key>highlight</key>
-				<string>#E6E6E6</string>
-				<key>shadowWidth</key>
-				<string>8</string>
+				<string>#274F75</string>
+				<key>selection</key>
+				<string>#214283</string>
+				<key>selectionBorder</key>
+				<string>#155CA3</string>
+				<key>selectionBackground</key>
+				<string>#214283</string>
 				<key>guide</key>
-				<string>#EBEBEB</string>
+				<string>#808080</string>
+				<key>stackGuide</key>
+				<string>#555555</string>
+				<key>activeGuide</key>
+				<string>#787878</string>
+				<key>shadowWidth</key>
+				<string>4</string>
 				<key>shadow</key>
-				<string>#BFBFBF</string>
+				<string>#080808</string>
+				<key>bracketsOptions</key>
+				<string>foreground</string>
+				<key>inactiveSelection</key>
+				<string>#455C73</string>
+				<key>tagsOptions</key>
+				<string>underline</string>
+				<key>tagsForeground</key>
+				<string>#FFC66D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -59,7 +67,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#329033</string>
+				<string>#6F6F6F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -70,7 +78,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#194E00</string>
+				<string>#6A8759</string>
 			</dict>
 		</dict>
 		<dict>
@@ -81,7 +89,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#2981CA</string>
+				<string>#6897BB</string>
 			</dict>
 		</dict>
 		<dict>
@@ -92,7 +100,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#2981CA</string>
+				<string>#937DB8</string>
+				<key>fontStyle</key>
+				<string> italic bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -103,7 +113,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#2981CA</string>
+				<string>#CC7832</string>
 			</dict>
 		</dict>
 		<dict>
@@ -125,7 +135,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#CC7832</string>
 				<key>fontStyle</key>
 				<string> bold</string>
 			</dict>
@@ -140,7 +150,7 @@
 				<key>fontStyle</key>
 				<string> bold</string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#CC7832</string>
 			</dict>
 		</dict>
 		<dict>
@@ -151,7 +161,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#CC7832</string>
 				<key>fontStyle</key>
 				<string> bold</string>
 			</dict>
@@ -160,17 +170,11 @@
 			<key>name</key>
 			<string>Class name</string>
 			<key>scope</key>
-			<string>entity.name.class,
-				entity.name.impl,
-				entity.name.implement,
-				entity.name.struct,
-				entity.name.enum,
-				entity.name.trait,
-				entity.name.type</string>
+			<string>entity.name.class,	entity.name.impl,	entity.name.implement,	entity.name.struct,	entity.name.enum,		entity.name.trait,		entity.name.type</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#2981CA</string>
+				<string>#6890B3</string>
 				<key>fontStyle</key>
 				<string> bold</string>
 			</dict>
@@ -185,7 +189,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#2981CA</string>
+				<string>#6890B3</string>
 				<key>fontStyle</key>
 				<string> bold</string>
 			</dict>
@@ -198,7 +202,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#2981CA</string>
+				<string>#6890B3</string>
 				<key>fontStyle</key>
 				<string> bold</string>
 			</dict>
@@ -213,7 +217,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#002261</string>
+				<string>#FFC66D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -226,7 +230,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -236,8 +240,8 @@
 			<string>entity.name.tag</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
+				<key>foreground</key>
+				<string>#CC7832</string>
 			</dict>
 		</dict>
 		<dict>
@@ -250,7 +254,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#FFC66D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -263,7 +267,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#002261</string>
+				<string>#FFC66D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -276,7 +280,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#2981CA</string>
+				<string>#6890B3</string>
 			</dict>
 		</dict>
 		<dict>
@@ -287,9 +291,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic bold</string>
+				<string>italic  bold</string>
 				<key>foreground</key>
-				<string>#2981CA</string>
+				<string>#6890B3</string>
 			</dict>
 		</dict>
 		<dict>
@@ -341,6 +345,8 @@
 			<dict>
 				<key>fontStyle</key>
 				<string>bold</string>
+				<key>foreground</key>
+				<string>#937DB8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -355,9 +361,7 @@ meta.function.type-declaration</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E41507</string>
-				<key>fontStyle</key>
-				<string> bold</string>
+				<string>#CC7832</string>
 			</dict>
 		</dict>
 		<dict>
@@ -386,7 +390,7 @@ punctuation.terminator</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E41507</string>
+				<string>#CC7832</string>
 			</dict>
 		</dict>
 		<dict>
@@ -432,7 +436,7 @@ punctuation.terminator</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#E41507</string>
+				<string>#937DB8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -445,7 +449,7 @@ punctuation.definition.image</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#2981CA</string>
+				<string>#6890B3</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 			</dict>
@@ -458,7 +462,7 @@ punctuation.definition.image</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#2981CA</string>
+				<string>#6890B3</string>
 			</dict>
 		</dict>
 		<dict>
@@ -473,7 +477,7 @@ punctuation.definition.table-cell-alignment</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#E41507</string>
+				<string>#937DB8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -497,40 +501,43 @@ punctuation.definition.table-cell-alignment</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#2981CA</string>
+				<string>#FFC66D</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>GitGutter deleted</string>
 			<key>scope</key>
-			<string>markup.deleted.git_gutter</string>
+			<string>markup.deleted.git_gutter,
+markup.deleted.diff</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E41507</string>
+				<string>#8F5247</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>GitGutter inserted</string>
 			<key>scope</key>
-			<string>markup.inserted.git_gutter</string>
+			<string>markup.inserted.git_gutter,
+markup.inserted.diff</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#329033</string>
+				<string>#447152</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>GitGutter changed</string>
 			<key>scope</key>
-			<string>markup.changed.git_gutter</string>
+			<string>markup.changed.git_gutter,
+markup.changed.diff</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#2981CA</string>
+				<string>#43698D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -561,10 +568,10 @@ punctuation.definition.table-cell-alignment</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>semanticClass</key>
-	<string>theme.light.paper</string>
+	<string>theme.dark.darkula</string>
 	<key>author</key>
 	<string>lumiknit</string>
 	<key>comment</key>
-	<string>White Color Theme</string>
+	<string>Dark Color Theme</string>
 </dict>
 </plist>
