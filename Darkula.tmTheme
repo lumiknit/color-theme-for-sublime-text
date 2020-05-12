@@ -147,10 +147,10 @@
 			<string>storage</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string> bold</string>
 				<key>foreground</key>
 				<string>#CC7832</string>
+				<key>fontStyle</key>
+				<string> bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -264,8 +264,6 @@
 			<string>support.function</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#FFC66D</string>
 			</dict>
@@ -346,7 +344,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#937DB8</string>
+				<string>#FFC66D</string>
 			</dict>
 		</dict>
 		<dict>
